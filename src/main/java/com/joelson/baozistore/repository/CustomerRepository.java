@@ -1,8 +1,8 @@
-package com.baozistore.repository;
+package com.joelson.baozistore.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.baozistore.model.Customer;
+import com.joelson.baozistore.model.Customer;
 
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 }

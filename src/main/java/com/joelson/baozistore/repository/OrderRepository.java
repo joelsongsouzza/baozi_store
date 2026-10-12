@@ -1,8 +1,8 @@
-package com.baozistore.repository;
+package com.joelson.baozistore.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.baozistore.model.Order;
+import com.joelson.baozistore.model.Order;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {
 }

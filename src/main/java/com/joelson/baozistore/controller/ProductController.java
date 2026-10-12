@@ -1,7 +1,7 @@
-package com.baozistore.controller;
+package com.joelson.baozistore.controller;
 
-import com.baozistore.model.Product;
-import com.baozistore.repository.ProductRepository;
+import com.joelson.baozistore.model.Product;
+import com.joelson.baozistore.repository.ProductRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
