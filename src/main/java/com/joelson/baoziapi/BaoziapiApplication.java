@@ -9,5 +9,4 @@ public class BaoziapiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BaoziapiApplication.class, args);
 	}
-
 }
