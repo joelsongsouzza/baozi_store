@@ -17,6 +17,7 @@ public class ProductController {
 
     @PostMapping
     public Product create(@RequestBody Product product) {
+        product.setId(null);
         return productRepo.save(product);
     }
 

@@ -17,6 +17,7 @@ public class OrderController {
 
     @PostMapping
     public Order create(@RequestBody Order order) {
+        order.setId(null);
         return orderRepo.save(order);
     }
 

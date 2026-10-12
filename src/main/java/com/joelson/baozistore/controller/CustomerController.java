@@ -17,6 +17,7 @@ public class CustomerController {
 
     @PostMapping
     public Customer create(@RequestBody Customer customer) {
+        customer.setId(null);
         return customerRepo.save(customer);
     }
 
