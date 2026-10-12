@@ -1,4 +1,4 @@
-package com.joelson.baoziapi;
+package com.joelson;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
