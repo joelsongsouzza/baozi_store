@@ -15,4 +15,36 @@ public class Product {
 	private String name;
 	private BigDecimal price;
 	private Boolean hasStock;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public BigDecimal getPrice() {
+		return price;
+	}
+
+	public void setPrice(BigDecimal price) {
+		this.price = price;
+	}
+
+	public Boolean getHasStock() {
+		return hasStock;
+	}
+
+	public void setHasStock(Boolean hasStock) {
+		this.hasStock = hasStock;
+	}
 }
